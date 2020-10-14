@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom25"
+    tools:context=".imp6sem7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Sem 7"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+        <ScrollView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scroll90">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button500"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="INDUSTRIAL ENGINEERING"
+                    android:textSize="20dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/custom_button1"
+                    android:textAllCaps="true"
+                    />
+
+                <Button
+                    android:id="@+id/button501"
+                    android:layout_below="@+id/button500"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/custom_button1"
+                    android:text="ELE-1"
+                    android:textAllCaps="true"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+                <Button
+                    android:id="@+id/button502"
+                    android:layout_below="@+id/button501"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/custom_button1"
+                    android:text="CAD"
+                    android:textAllCaps="true"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+
+                <Button
+                    android:id="@+id/button503"
+                    android:layout_below="@+id/button502"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/custom_button1"
+                    android:text="EC-2"
+                    android:textAllCaps="true"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+                <Button
+                    android:id="@+id/button504"
+                    android:layout_below="@+id/button503"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/custom_button1"
+                    android:text="DMD"
+                    android:textAllCaps="true"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

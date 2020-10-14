@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom25"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:background="@drawable/kan"
+        android:foregroundGravity="center"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="110dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_study_planner"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="#0C0C0C"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="350dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:text="@string/starting"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#0B0A0A"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp" />
+
+
+</RelativeLayout>

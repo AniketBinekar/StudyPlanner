@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Study Planner</string>
+    <string name="be">BE</string>
+    <string name="welcome_to_study_planner">Welcome to Study Planner</string>
+    <string name="starting">Starting....</string>
+    <string name="name">Name</string>
+    <string name="mail" tools:ignore="DuplicateDefinition">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="or">OR</string>
+    <string name="username">username</string>
+    <string name="email">Email</string>
+    <string name="editTextTextPersonName">[a-z]</string>
+    <string name="image" />
+
+</resources>

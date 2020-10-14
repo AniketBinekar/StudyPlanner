@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/custom25"
+    android:layout_height="match_parent"
+    tools:context=".imp1">
+    <TextView
+        android:id="@+id/firat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIRST YEAR"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btn900"
+        android:layout_below="@+id/firat"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Sem1"
+        android:textSize="30dp"
+        android:background="@drawable/custom_button1"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn901"
+        android:layout_below="@+id/btn900"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Sem2"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button1"/>
+
+</RelativeLayout>

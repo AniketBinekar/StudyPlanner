@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firstapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".imp6sem8"></activity>
+        <activity android:name=".imp6sem7" />
+        <activity android:name=".imp6sem6" />
+        <activity android:name=".imp6sem5" />
+        <activity android:name=".imp6sem4" />
+        <activity android:name=".imp6sem3" />
+        <activity android:name=".imp5sem8" />
+        <activity android:name=".imp5sem7" />
+        <activity android:name=".imp5sem6" />
+        <activity android:name=".imp5sem5" />
+        <activity android:name=".imp5sem4" />
+        <activity android:name=".imp5sem3" />
+        <activity android:name=".imp4sem8" />
+        <activity android:name=".imp4sem7" />
+        <activity android:name=".imp4sem6" />
+        <activity android:name=".imp4sem5" />
+        <activity android:name=".imp4sem4" />
+        <activity android:name=".imp4sem3" />
+        <activity android:name=".imp3sem8" />
+        <activity android:name=".imp3sem7" />
+        <activity android:name=".imp3sem6" />
+        <activity android:name=".imp3sem5" />
+        <activity android:name=".imp3sem4" />
+        <activity android:name=".imp3sem3" />
+        <activity android:name=".imp2sem8" />
+        <activity android:name=".imp2sem7" />
+        <activity android:name=".imp2sem6" />
+        <activity android:name=".imp2sem5" />
+        <activity android:name=".imp2sem4" />
+        <activity android:name=".imp2sem3" />
+        <activity android:name=".imp1sem2" />
+        <activity android:name=".imp1sem1" />
+        <activity android:name=".MainActivityabout" />
+        <activity android:name=".imp6" />
+        <activity android:name=".imp5" />
+        <activity android:name=".imp4" />
+        <activity android:name=".imp3" />
+        <activity android:name=".imp2" />
+        <activity android:name=".imp1" />
+        <activity android:name=".news" />
+        <activity android:name=".quiz" />
+        <activity android:name=".jobengineer" />
+        <activity android:name=".search" />
+        <activity android:name=".result" />
+        <activity android:name=".pdf11" />
+        <activity android:name=".pdf10" />
+        <activity android:name=".pdf9" />
+        <activity android:name=".pdf8" />
+        <activity android:name=".pdf7" />
+        <activity android:name=".pdf6" />
+        <activity android:name=".pdf5" />
+        <activity android:name=".pdf4" />
+        <activity android:name=".pdf3" />
+        <activity android:name=".pdf2" />
+        <activity android:name=".MainActivity44" />
+        <activity android:name=".MainActivity43" />
+        <activity android:name=".MainActivity42" />
+        <activity android:name=".MainActivity41" />
+        <activity android:name=".MainActivity40" />
+        <activity android:name=".MainActivity39" />
+        <activity android:name=".MainActivity38" />
+        <activity android:name=".MainActivity37" />
+        <activity android:name=".MainActivity36" />
+        <activity android:name=".MainActivity35" />
+        <activity android:name=".MainActivity34" />
+        <activity android:name=".MainActivity33" />
+        <activity android:name=".MainActivity32" />
+        <activity android:name=".MainActivity31" />
+        <activity android:name=".MainActivity30" />
+        <activity android:name=".MainActivity29" />
+        <activity android:name=".MainActivity28" />
+        <activity android:name=".MainActivity27" />
+        <activity android:name=".MainActivity26" />
+        <activity android:name=".MainActivity25" />
+        <activity android:name=".MainActivity24" />
+        <activity android:name=".MainActivity23" />
+        <activity android:name=".MainActivity22" />
+        <activity android:name=".MainActivity21" />
+        <activity android:name=".MainActivity20" />
+        <activity android:name=".MainActivity19" />
+        <activity android:name=".MainActivity18" />
+        <activity android:name=".MainActivity17" />
+        <activity android:name=".MainActivity16" />
+        <activity android:name=".MainActivity15" />
+        <activity android:name=".MainActivity14" />
+        <activity android:name=".MainActivity13" />
+        <activity android:name=".MainActivity12" />
+        <activity android:name=".MainActivity11" />
+        <activity android:name=".MainActivity10" />
+        <activity android:name=".MainActivity9" />
+        <activity android:name=".MainActivity8" />
+        <activity android:name=".MainActivity7" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
