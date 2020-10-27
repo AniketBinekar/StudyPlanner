@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom25"
+    tools:context=".quizone">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="text"
+        android:textColor="#0E0E0E"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:layout_below="@id/score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:gravity="center_horizontal"
+        android:text="Text"
+        android:textColor="#0B0A0A"
+        android:textSize="20dp" />
+
+    <Button
+
+        android:id="@+id/ans1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_button1"
+        android:text="Button"
+        android:textAllCaps="true"
+        android:textSize="30dp" />
+
+    <Button
+
+        android:id="@+id/ans2"
+        android:layout_below="@+id/ans1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_button1"
+        android:text="Button"
+        android:textAllCaps="true"
+        android:textSize="30dp" />
+    <Button
+
+        android:id="@+id/ans3"
+        android:layout_below="@+id/ans2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_button1"
+        android:text="Button"
+        android:textAllCaps="true"
+        android:textSize="30dp" />
+    <Button
+
+        android:id="@+id/ans4"
+        android:layout_below="@+id/ans3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_button1"
+        android:text="Button"
+        android:textAllCaps="true"
+        android:textSize="30dp" />
+
+
+
+</RelativeLayout>

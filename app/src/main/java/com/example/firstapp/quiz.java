@@ -3,6 +3,7 @@ package com.example.firstapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.MenuItem;
@@ -33,23 +34,27 @@ public class quiz extends AppCompatActivity {
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
         menu.setHeaderTitle("Select Action");
-        menu.add(0,v.getId(),0,"code");
-        menu.add(0,v.getId(),0,"Example");
-        menu.add(0,v.getId(),0,"tutorial");
+        menu.add(0,v.getId(),0,"age");
+        menu.add(0,v.getId(),0,"area");
+        menu.add(0,v.getId(),0,"boat and stream");
     }
 
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
-        if (item.getTitle()=="code")
+        if (item.getTitle()=="age")
         {
+            Intent quiz1=new Intent(quiz.this,quizone.class);
+            startActivity(quiz1);
             Toast.makeText(getApplicationContext(),"Selected code",Toast.LENGTH_SHORT).show();
         }
-        else if (item.getTitle()=="Example")
+        else if (item.getTitle()=="area")
         {
+
             Toast.makeText(getApplicationContext(),"Selected code",Toast.LENGTH_SHORT).show();
         }
-        else if (item.getTitle()=="tutorial")
+        else if (item.getTitle()=="boat and stream")
         {
+
             Toast.makeText(getApplicationContext(),"Selected code",Toast.LENGTH_SHORT).show();
         }
 

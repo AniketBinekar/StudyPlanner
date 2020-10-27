@@ -8,10 +8,10 @@ android {
 
     defaultConfig {
         applicationId "com.example.firstapp"
-        minSdkVersion 15
+        minSdkVersion 17
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 15
+        versionName "10.0.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -35,11 +35,12 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-
-
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'com.github.barteksc:android-pdf-viewer:3.0.0-beta.4'
     implementation "androidx.cardview:cardview:1.0.0"
+         compile    "com.github.bumptech.glide:glide:4.11.0"
     implementation 'com.github.denzcoskun:ImageSlideshow:0.0.7'
     
 

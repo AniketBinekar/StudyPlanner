@@ -18,7 +18,7 @@ import java.util.Vector;
 import java.util.regex.Pattern;
 
 public class MainActivity2<n> extends AppCompatActivity {
-    TextView t1, t2;
+    TextView  t2;
     EditText e1, e2, e3;
     CardView b1;
     public final String username1 = "[a-z]";
@@ -29,12 +29,12 @@ public class MainActivity2<n> extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        t1 = (TextView) findViewById(R.id.textVie);
+
         t2 = (TextView) findViewById(R.id.textview);
         e1 = (EditText) findViewById(R.id.editTextTextPersonName);
         e2 = (EditText) findViewById(R.id.editTextmail);
         e3 = (EditText) findViewById(R.id.editTextTextPassword);
-        b1 = (CardView) findViewById(R.id.btn);
+        b1 = (CardView) findViewById(R.id.firstbutton);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,8 +63,8 @@ public class MainActivity2<n> extends AppCompatActivity {
                 }
                 else
                 {
-                    Intent uncle=new Intent(MainActivity2.this,MainActivity3.class);
-                    startActivity(uncle);
+                    Intent firdtbutton=new Intent(MainActivity2.this,MainActivity3.class);
+                    startActivity(firdtbutton);
                     Toast.makeText(MainActivity2.this,"Login Sucessfully",Toast.LENGTH_SHORT).show();
 
                 }

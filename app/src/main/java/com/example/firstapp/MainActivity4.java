@@ -45,10 +45,10 @@ public class MainActivity4 extends AppCompatActivity  {
             public void onItemSelected(final AdapterView<?> parent, View view, final int position, long id) {
                 sp1.setSelection(position);
 
-                if (parent.getItemAtPosition(position).equals("ALL BRANCH"))
+                if (!parent.getItemAtPosition(position).equals("ALL BRANCH"))
                 {
-                    
 
+                    Toast.makeText(MainActivity4.this,"branch Selected first",Toast.LENGTH_SHORT).show();
 
                 }
                 else {
